@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Gifts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">Birthday<span>♡</span></a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cake.html">Cake</a>
+        <a class="active" href="gifts.html">Gifts</a>
+        <a href="wishes.html">Wishes</a>
+        <a href="surprise.html">Surprise</a>
+    </nav>
+</header>
+
+<section class="page-section">
+    <p class="tag">✦ SOMETHING SPECIAL FOR YOU ✦</p>
+    <h1>Your Birthday Gifts 🎁</h1>
+    <p class="description">
+        Three little gifts with lots of love!
+    </p>
+
+    <div class="gift-grid">
+        <div class="gift-card">
+            <div class="gift-icon" onclick="openGift(1)">🎁</div>
+            <h3>Gift One</h3>
+            <p id="gift1">Tap to open</p>
+        </div>
+
+        <div class="gift-card">
+            <div class="gift-icon" onclick="openGift(2)">🎁</div>
+            <h3>Gift Two</h3>
+            <p id="gift2">Tap to open</p>
+        </div>
+
+        <div class="gift-card">
+            <div class="gift-icon" onclick="openGift(3)">🎁</div>
+            <h3>Gift Three</h3>
+            <p id="gift3">Tap to open</p>
+        </div>
+    </div>
+
+    <a href="wishes.html" class="btn">Read Your Wishes 💌</a>
+</section>
+
+<footer>Little gifts, endless happiness ♡</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Cutting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">Birthday<span>♡</span></a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="cake.html">Cake</a>
+        <a href="gifts.html">Gifts</a>
+        <a href="wishes.html">Wishes</a>
+        <a href="surprise.html">Surprise</a>
+    </nav>
+</header>
+
+<section class="page-section cake-page">
+    <p class="tag">✦ THE SWEETEST MOMENT ✦</p>
+    <h1>Let's Cut The Cake! 🎂</h1>
+    <p class="description">
+        A little sweetness for your special day.
+    </p>
+
+    <div class="big-cake">
+        <div class="flames" id="flames">
+            <span>🔥</span>
+            <span>🔥</span>
+            <span>🔥</span>
+        </div>
+        <div class="big-cream"></div>
+        <div class="big-top"></div>
+        <div class="big-bottom"></div>
+    </div>
+
+    <button class="btn" onclick="blowCandles()">
+        Blow The Candles 🕯️
+    </button>
+
+    <button class="btn secondary" onclick="cutBirthdayCake()">
+        Cut The Cake 🔪
+    </button>
+
+    <h2 id="cake-result"></h2>
+
+    <a href="gifts.html" class="next-link">
+        Next: Open Your Gifts →
+    </a>
+</section>
+
+<footer>Every moment is sweeter with you ♡</footer>
+<script src="script.js"></script>
+</body>
+</html>
